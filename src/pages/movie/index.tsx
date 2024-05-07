@@ -12,9 +12,6 @@ const Movie = () => {
     const { state } = useContext(MovieContext);
     const { movies } = state;
 
-    const trendingList: any = movies.filter((item) => item.isTrending === true);
-    const recommendList: any = movies.filter((item) => item.isTrending !== true);;
-
     const handleSearch = (e: { target: { value: SetStateAction<string> } }) => {
         setSearch(e.target.value)
         const newList = movies.filter((movie) =>

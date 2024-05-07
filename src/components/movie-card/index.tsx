@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { MovieDataType } from '../../assets/data';
 import { MovieContext } from '../../context/movie-context';
-import { Box, Card, CardContent, Grid, Stack, Typography } from '@mui/material';
+import { Box, Card, CardContent, Grid, Typography } from '@mui/material';
 import { moviesIcon, tvSeriesIcon } from '../../assets/icons/index';
 import BookmarkIcon from '../icons/bookmark-icon';
 import BookmarkEmptyIcon from '../icons/bookmark-empty-icon';
